@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "All Used Auto Parts Warehouse",
+  "projectDescription": "An online marketplace for finding, ordering, and shipping quality used auto parts from a network of verified salvage yards and suppliers.",
   "theme": "almond",
-  "name": "All Used Auto Parts Warehouse",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -79,22 +77,23 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@auapw.org"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Shop Now",
-      "href": "https://auapw.org"
-    }
-  },
-  "footer": {
-    "socials": {
-      "website": "https://auapw.org"
-    }
-  }
+  "keyFeatures": [
+    "Search millions of used auto parts by year, make, model, and part number",
+    "Part compatibility checker to ensure correct fitment",
+    "Network of verified salvage yards and auto recyclers",
+    "Secure checkout with multiple payment options",
+    "Real-time order tracking and shipping updates",
+    "Seller marketplace for auto recyclers and salvage yards",
+    "Returns and warranty support for eligible parts",
+    "VIN-based part lookup for accurate matching"
+  ],
+  "publicApiSurface": [
+    "Part search by year/make/model/part type",
+    "VIN lookup for compatible parts",
+    "Part listing detail pages",
+    "Shopping cart and checkout flow",
+    "Order status and tracking",
+    "Seller inventory management portal",
+    "Return request submission"
+  ]
 }

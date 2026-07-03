@@ -1,0 +1,107 @@
+---
+title: "Manage Your AUAPW Inventory, Listings, and Sold Parts"
+sidebarTitle: "Inventory"
+description: "Update listing status, adjust prices, mark parts as sold, bulk-edit inventory, and monitor your active listings from the AUAPW Seller Dashboard."
+---
+
+Your Seller Dashboard is the central hub for everything related to your AUAPW business — from monitoring active listings and incoming orders to updating prices and pausing your store during downtime. Keeping your inventory accurate and up to date is one of the most important habits you can build as a seller, because stale or incorrect listings are the leading cause of unfulfillable orders, negative buyer experiences, and declining seller ratings.
+
+## Your Seller Dashboard
+
+When you log in to [auapw.org/dashboard](https://auapw.org/dashboard), you land on the Dashboard Overview, which displays a real-time snapshot of your account:
+
+<CardGroup cols={2}>
+  <Card title="Active Listings" icon="list-check">
+    The total number of parts currently live and searchable on AUAPW. Click through to filter by condition, category, or listing age.
+  </Card>
+  <Card title="Pending Orders" icon="clock">
+    Orders that have been placed but not yet shipped. Orders requiring action are highlighted. You must ship within 2 business days to maintain your handling time rating.
+  </Card>
+  <Card title="Payout Summary" icon="circle-dollar-to-slot">
+    Your current pending payout balance, most recent payout amount, and next scheduled ACH deposit date. Payouts are processed weekly for balances above $25.
+  </Card>
+  <Card title="Seller Rating" icon="star">
+    Your overall rating based on fulfillment speed, part accuracy, and buyer feedback. A rating below 4.0 triggers a performance review. A rating above 4.8 qualifies you for the Top Seller badge.
+  </Card>
+</CardGroup>
+
+## Updating Listings
+
+You can edit any active listing at any time without taking it offline. Changes go live within a few minutes of saving.
+
+**Fields you can update on an active listing:**
+- **Price** — adjust at any time; the new price applies to all future orders immediately
+- **Condition grade** — update if you re-inspect a part and need to correct the grade
+- **Photos** — add, remove, or replace images; the minimum of 3 photos still applies
+- **Description** — add more detail, correct errors, or include additional fitment notes
+- **Dimensions and weight** — correct shipping data if you re-measure a part
+
+To edit a listing, go to **Inventory → Active Listings**, find the part using the search or filter tools, and click the **Edit** icon. Make your changes and click **Save**. The listing remains live throughout the editing process.
+
+<Info>
+If you need to temporarily remove a listing while you re-inspect or re-photograph a part, use the **Set to Draft** option instead of deleting it. Draft listings preserve all entered data and can be published again in one click.
+</Info>
+
+## Marking Parts as Sold or Unavailable
+
+When a part sells through an order on AUAPW, the listing is automatically marked as sold and removed from search results. However, if a part sells through another channel (a walk-in customer, a phone order, or another platform), you are responsible for updating the status manually.
+
+To manually mark a part as sold or unavailable:
+
+1. Go to **Inventory → Active Listings**
+2. Find the listing and click **Edit**
+3. Change the status to **Sold** or **Unavailable**
+4. Click **Save**
+
+<Warning>
+Failing to mark sold parts as unavailable is the most preventable cause of unfulfillable orders. When a buyer places an order for a part you no longer have, you must cancel the order — which counts against your fulfillment rate and directly lowers your seller rating. If you receive multiple cancellations due to inventory inaccuracies, your account may be placed on probationary status.
+</Warning>
+
+## Bulk Inventory Management
+
+Professional and Enterprise sellers can upload and update inventory in bulk using a CSV file, which is the most efficient method for managing catalogs with hundreds or thousands of parts.
+
+**To access bulk upload:**
+
+Go to **Inventory → Bulk Upload** and download the AUAPW CSV template. The template includes the following required columns:
+
+| Column | Description | Example |
+|---|---|---|
+| `part_name` | Standard part name | `Alternator` |
+| `oem_number` | OEM part number | `23-456-789` |
+| `interchange_number` | Interchange number (optional but recommended) | `ALT-1234` |
+| `year` | Donor vehicle model year | `2018` |
+| `make` | Donor vehicle make | `Ford` |
+| `model` | Donor vehicle model | `F-150` |
+| `trim` | Donor vehicle trim level | `XLT` |
+| `vin` | Donor vehicle VIN | `1FTFW1E50JFA12345` |
+| `condition` | Grade A, B, C, or Remanufactured | `A` |
+| `mileage` | Mileage on donor vehicle | `87500` |
+| `price` | Asking price in USD | `149.00` |
+| `weight_lbs` | Packaged weight in pounds | `12.5` |
+| `length_in` | Packaged length in inches | `14` |
+| `width_in` | Packaged width in inches | `10` |
+| `height_in` | Packaged height in inches | `8` |
+
+After filling out the template, return to **Inventory → Bulk Upload**, select your CSV file, and click **Upload**. AUAPW will validate the file and display any errors before publishing. Rows with errors are skipped; valid rows are published immediately.
+
+<Tip>
+Download the latest version of the CSV template each time you do a bulk upload. AUAPW occasionally adds new optional columns (such as `interchange_number` or `core_charge`), and using an outdated template may cause rows to fail validation.
+</Tip>
+
+## Pausing Your Store
+
+If you need to temporarily suspend all of your listings — for example, during a business closure, a facility move, or a full inventory audit — you can pause your entire store from your account settings.
+
+To pause your store:
+
+1. Go to **Account Settings → Store Status**
+2. Click **Pause Store**
+3. Optionally enter a reactivation date and a message to display on your storefront
+4. Click **Confirm**
+
+While your store is paused, all of your listings are hidden from search results and buyers cannot place new orders. Existing orders that were placed before the pause must still be fulfilled on schedule. Your listings are automatically restored when you reactivate your store, or on the reactivation date you specified.
+
+<Note>
+Listings on AUAPW expire automatically after **30 days of inactivity** (no views, edits, or orders). Before expiry, you'll receive an email notification with a one-click renewal link. You can also bulk-renew expiring listings from **Inventory → Expiring Soon**. Renewing a listing resets its 30-day clock and refreshes its position in search results.
+</Note>
