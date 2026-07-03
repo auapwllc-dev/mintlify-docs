@@ -20,13 +20,13 @@ Together, these two layers catch the vast majority of fitment mismatches automat
 Every listing displays one of three compatibility states based on your saved vehicle:
 
 <CardGroup cols={3}>
-  <Card title="✅ Fits Your Vehicle" icon="circle-check">
+  <Card title="✅ Fits Your Vehicle" icon="circle-check" href="finding-parts/part-compatibility">
     **Green badge.** The OEM part number and fitment database both confirm this part is compatible with your saved year, make, model, and trim. You can add it to your cart with confidence.
   </Card>
-  <Card title="⚠️ Verify Fitment" icon="triangle-exclamation">
+  <Card title="⚠️ Verify Fitment" icon="triangle-exclamation" href="finding-parts/part-compatibility">
     **Yellow badge.** The part is likely compatible but one or more variables — such as a specific factory option or regional market variant — could not be confirmed automatically. Review the part details and contact the seller before purchasing.
   </Card>
-  <Card title="No Badge" icon="circle-question">
+  <Card title="No Badge" icon="circle-question" href="finding-parts/part-compatibility">
     **No badge displayed.** Either no vehicle is saved to your account, or the listing lacks enough data to run the compatibility check. Enter your vehicle info or search by VIN to see your compatibility status.
   </Card>
 </CardGroup>
@@ -66,14 +66,14 @@ When you want to go beyond the badge and confirm fitment yourself, follow these 
 
 ## Common Compatibility Questions
 
-<AccordionGroup>
-  <Accordion title="What is an OEM part number?">
-    An OEM (Original Equipment Manufacturer) part number is the unique identifier assigned by the vehicle manufacturer to every component it installs at the factory. It encodes the part's design specification, so two parts with the same OEM number are functionally and dimensionally identical. You can find your vehicle's OEM part numbers in the owner's manual, a dealership's parts department, or an authoritative online parts catalogue.
-  </Accordion>
-  <Accordion title="My vehicle has aftermarket modifications — will parts fit?">
-    Possibly, but you need to verify manually. AUAPW's compatibility system is built around factory (stock) configurations. If your vehicle has been lowered, has an aftermarket engine swap, uses non-stock wheel sizes, or has been otherwise modified, the stock OEM fitment data may not reflect your actual setup. Contact the seller, describe your modifications, and confirm measurements or connector types before purchasing.
-  </Accordion>
-  <Accordion title="Can I search by part number directly?">
-    Yes. On the AUAPW search page, select the **Part Number** tab and enter the full OEM part number or a known interchange number. The search will return all listings tagged with that number or a confirmed equivalent. This is the fastest route if you already know the exact part number you need.
-  </Accordion>
-</AccordionGroup>
+<Accordion title="What is an OEM part number?">
+  An OEM (Original Equipment Manufacturer) part number is the unique identifier assigned by the vehicle manufacturer to every component it installs at the factory. It encodes the part's design specification, so two parts with the same OEM number are functionally and dimensionally identical. You can find your vehicle's OEM part numbers in the owner's manual, a dealership's parts department, or an authoritative online parts catalogue.
+</Accordion>
+
+<Accordion title="My vehicle has aftermarket modifications — will parts fit?">
+  Possibly, but you need to verify manually. AUAPW's compatibility system is built around factory (stock) configurations. If your vehicle has been lowered, has an aftermarket engine swap, uses non-stock wheel sizes, or has been otherwise modified, the stock OEM fitment data may not reflect your actual setup. Contact the seller, describe your modifications, and confirm measurements or connector types before purchasing.
+</Accordion>
+
+<Accordion title="Can I search by part number directly?">
+  Yes. On the AUAPW search page, select the **Part Number** tab and enter the full OEM part number or a known interchange number. The search will return all listings tagged with that number or a confirmed equivalent. This is the fastest route if you already know the exact part number you need.
+</Accordion>
